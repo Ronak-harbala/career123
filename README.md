@@ -45,16 +45,18 @@
 
 ## 📦 Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/ai-career-coach.git
-cd ai-career-coach
+### Make sure to create a `.env` file with following variables -Add commentMore actions
+**AI Career Coach** is a smart and interactive platform that empowers students and job seekers with personalized career guidance using the power of Artificial Intelligence. From resume optimization and interview prep to targeted assessments and career path suggestions — this application helps users become job-ready in a smarter and faster way.
 
-# Install dependencies
-npm install
+```
+DATABASE_URL=
+---
 
-# Run development server
-npm run dev
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+## 🚀 Features
 
-# Visit in browser
-http://localhost:3000
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
